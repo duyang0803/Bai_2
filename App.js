@@ -1,9 +1,12 @@
 import * as React from 'react';
-import { Button, Text, TextInput, View, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {StyleSheet, Button, Text,TextInput, View, FlatList} from 'react-native';
+import Icons from 'react-native-vector-icons/AntDesign';
+import SignIn from './src/sreeens/signin';
+import SignUp from './src/sreeens/signup';
 
 const AuthContext = React.createContext();
 const Tab = createMaterialBottomTabNavigator;
