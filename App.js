@@ -266,7 +266,7 @@ export default function App({ navigation }) {
   return (
     <NavigationContainer >
       <AuthContext.Provider value={authContext}>
-        <Tab.Navigator initialRouteName="Feed">
+        <Tab.Navigator>
           {state.userToken == null ? (
             <>
               <Tab.Screen name="Sign In" component={SignInScreen} options={{
