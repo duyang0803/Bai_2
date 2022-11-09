@@ -276,7 +276,7 @@ export default function App({ navigation }) {
                 },
                 headerTitleAlign: 'center',
                 headerStyle: {
-                  backgroundColor: '#f4511ea6',
+                  backgroundColor: '#fa0000',
                 }, headerTitleStyle: {
                   color: 'white',
                 },
@@ -293,7 +293,7 @@ export default function App({ navigation }) {
                 },
                 headerTitleAlign: 'center',
                 headerStyle: {
-                  backgroundColor: '#f4511ea6',
+                  backgroundColor: '#fa0000',
                 }, headerTitleStyle: {
                   color: 'white',
                 },
